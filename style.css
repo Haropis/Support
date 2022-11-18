@@ -3,6 +3,10 @@
   text-decoration: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 .btn1 a{
   text-decoration: none;
   color: white;
@@ -15,7 +19,7 @@
 
 body {
     font-size: 15pt;
-    background-color: lightgoldenrodyellow;
+    background-color: lightgrey;
 }
 
 .topdiv{
@@ -27,11 +31,13 @@ body {
 .image{
 padding-top: 10px;
 padding-bottom: -20px;
+text-align: center;
 }
 
 .topimg{
-  width: 95.7vw;
+  width: 95.2vw;
   height: 30vh;
+  
 }
 
 #651BD2
@@ -90,3 +96,26 @@ p{
   background: lightseagreen;
 }
 
+footer{
+  width: 100%;
+  background: grey;
+  color: white;
+  text-align: center;
+}
+
+footer ul{
+  display: flex;
+  align-items: space-between;
+  gap: 15px;
+  list-style-type: none;
+}
+
+
+footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+span{
+  text-decoration: underline;
+}
