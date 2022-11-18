@@ -3,20 +3,35 @@
   text-decoration: none;
 }
 
-a{
+.btn1 a{
   text-decoration: none;
   color: white;
 }
 
+.btn2 a{
+  text-decoration: none;
+  color: lightseagreen;
+}
+
 body {
     font-size: 15pt;
-    background-color: #fff;
+    background-color: lightgoldenrodyellow;
 }
 
 .topdiv{
   text-align: center;
   background-color: #651BD2;
   height: 40px;
+}
+
+.image{
+padding-top: 10px;
+padding-bottom: -20px;
+}
+
+.topimg{
+  width: 95.7vw;
+  height: 30vh;
 }
 
 #651BD2
@@ -36,13 +51,42 @@ p{
 }
 
 .bodytext{
-  padding-top: 10px;
+  padding-top: 0px;
   font-size: 11pt;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
+
 }
 
 .bottomdiv{
   text-align: center;
-  background-color: lightseagreen;
   height: 40px;
 }
+
+.btn2{
+  text-align: center;
+  border-color: lightseagreen;
+  border-radius: 10px;
+  height:25px;
+  width: 125px;
+  background: transparent;
+}
+
+.btn2:hover{
+  text-align: center;
+  border-color: cyan;
+  border-radius: 10px;
+  height: 25px;
+  width: 125px;
+  background: lightseagreen;
+  margin-top: 7px;
+}
+
+.btn2:active{
+  text-align: center;
+  border-color: cyan;
+  border-radius: 10px;
+  height: 25px;
+  width: 125px;
+  background: lightseagreen;
+}
+
