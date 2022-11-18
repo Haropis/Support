@@ -1,0 +1,48 @@
+*{
+  font-family: poppins;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body {
+    font-size: 15pt;
+    background-color: #fff;
+}
+
+.topdiv{
+  text-align: center;
+  background-color: #651BD2;
+  height: 40px;
+}
+
+#651BD2
+
+p{
+  color: #ddd;
+}
+
+.btn1{
+  text-align: center;
+  border-color: lightcyan;
+  border-radius: 10px;
+  height: 25px;
+  width: 125px;
+  background-color: transparent;
+  margin-top: 7px;
+}
+
+.bodytext{
+  padding-top: 10px;
+  font-size: 11pt;
+  padding-bottom: 40px;
+}
+
+.bottomdiv{
+  text-align: center;
+  background-color: lightseagreen;
+  height: 40px;
+}
